@@ -15,7 +15,7 @@ class User
     $this->username = $username;
     $this->email = $username.'@somemail.com';
     $this->tld = 'com';
-    $this->passwrod = 'none-of-your-bussiness';
+    $this->password = 'none-of-your-bussiness';
   }
 
   public function run()
